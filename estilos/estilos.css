@@ -1,0 +1,85 @@
+body {
+    background-color: #f0f2f5;
+}
+form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+h1 {
+    color: #166fe5;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+    font-size: 2.5em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;
+}
+h2, h3{
+    color: #166fe5;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+    font-size: 1.6em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px; 
+}
+input[type="email"], input[type="password"] {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+}
+.card{
+    -webkit-box-shadow: 0px 5px 12px -6px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 5px 12px -6px rgba(0,0,0,1);
+    box-shadow: 0px 5px 12px -6px rgba(0,0,0,1);
+    margin: 0 auto;
+    max-width: 95%;
+}
+.botonPrimario{
+    background-color: #166fe5;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.botonPrimario:hover {
+  background-color: #00367d;
+  color: #ffffff;
+}
+.botonSecundario:hover {
+    background-color: #217719;
+    color: #ffffff;
+  }
+.botonSecundario{
+    background-color: #4bba41;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.navbar{
+	background: linear-gradient(to right, #166fe5,#c0c0c0); 
+  	color: #fff;
+  	padding: 20px;
+}
+#footer{
+    height: 100px;
+    width: 100%;
+    margin-top: 8%;
+    color: #166fe5;
+    background-color: #166fe5;
+}
